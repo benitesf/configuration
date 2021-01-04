@@ -1,8 +1,13 @@
-set background=dark
+syntax on
+set ts=2 sw=2
+set expandtab
+set ai
+set number
 set hlsearch
+set ruler
+set background=dark
 set laststatus=2
 set statusline=%f\ %l,%c
-set ts=2 sw=2
 set autoindent
 set smartindent
-syntax on
+highlight Comment ctermfg=green
